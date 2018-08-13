@@ -11,5 +11,6 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     end
     assert_template 'users/new'
     assert_select 'div.alert, div.alert-danger', "The form contains 4 errors."
+    assert_select 'form[action="/signup"]', true
   end
 end
