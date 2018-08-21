@@ -30,7 +30,7 @@ Rails.application.configure do
   #config.action_mailer.raise_delivery_errors = false
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :test
-  host = 'https://ap-southeast-1.console.aws.amazon.com'     # クラウドIDE
+  host = 'a43aef3d10134458890e0a434272b23f.vfs.cloud9.ap-southeast-1.amazonaws.com'     # クラウドIDE
   config.action_mailer.default_url_options = { host: host, protocol: 'https' }
 
   config.action_mailer.perform_caching = false
