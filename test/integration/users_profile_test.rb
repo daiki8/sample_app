@@ -30,6 +30,5 @@ class UsersProfileTest < ActionDispatch::IntegrationTest
     #get user_path(@other_user)
     #assert_select 'input[value=?]', 'Follow'
     #@user.follow(@other_user)
-
   end
 end
