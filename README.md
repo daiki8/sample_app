@@ -1,4 +1,7 @@
 README.md
+
+[SampleApp](https://infinite-tor-34304.herokuapp.com/)
+
 # Ruby on Rails チュートリアルのサンプルアプリケーション
 
 これは、次の教材で作られたサンプルアプリケーションです。   
